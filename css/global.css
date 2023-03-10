@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+:root {
+    --blue: #737CCF;
+    --blue-light: #E1E5F8;
+    --blue-dark: #2218A7;
+    --mist: #BBC4EB;
+    --black: #333;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--blue-light);
+}
+
+.nav-header {
+    text-align: center;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: var(--blue-dark);
+    font-size: 48px;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: var(--blue-dark);
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li:last-child {
+    border-right: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px 15px;
+    text-align: center;
+    color: white;
+}
+
+.nav li a:hover {
+    background-color: var(--blue);
+}
+
+.table-list {
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+}
+
+.table-list th, .table-list td {
+    padding: 10px;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.table-list th {
+    text-align: left;
+    background-color: var(--blue-dark);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.table-list tr:hover {
+    background-color: var(--mist);
+}
+
+.initial-text {
+    font-family: 'Roboto Mono', sans-serif;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: var(--blue-dark);
+    color: white;
+    border: 0 none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+    margin-bottom: 15px;
+    margin-right: 5px;
+    width: 10%;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 16px;
+}
+
+label, select {
+    margin-right: 5px;
+    margin-bottom: 15px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: var(--blue-dark);
+}
